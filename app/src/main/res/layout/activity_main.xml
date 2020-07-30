@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <EditText
+                android:id="@+id/gross_interest_tl_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Brüt Tl faizinizi girin"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/gross_interest_dolar_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Brüt dolar faizinizi girin"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/current_dolar_exchange_rate_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Şu anki dolar kuru"
+                android:inputType="numberDecimal" />
+
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:id="@+id/hesap_ozeti_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/submitCalculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="submitCalculate"
+            android:text="Calculate"
+            android:textAllCaps="true"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BaşaBaş Hesabı</string>
+    <string name="name">İsim</string>
+    <string name="toppings">Ekstralar</string>
+    <string name="whipped_cream">Krema</string>
+    <string name="chocolate">Çikolata</string>
+    <string name="quantity">Adet</string>
+    <string name="initial_quantity_value">2</string>
+    <string name="order">Sipariş</string>
+    <string name="order_summary_name">Adınız: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+    <string name="order_summary_whipped_cream">Krema Eklensin mi? <xliff:g example="true" id="addWhippedCream">%b</xliff:g></string>
+    <string name="order_summary_chocolate">Çikolata Eklensin mi? <xliff:g example="true" id="addChocolate">%b</xliff:g></string>
+    <string name="order_summary_quantity">Adet: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+    <string name="order_summary_price">Toplam Fiyat: <xliff:g example="$10" id="price">%s</xliff:g></string>
+    <string name="thank_you">Teşekkürler!</string>
+    <string name="order_summary_email_subject">Sadece Java aplikasyonu <xliff:g example="Amy" id="name">%s</xliff:g></string>
+</resources>
